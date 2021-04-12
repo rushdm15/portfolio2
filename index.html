@@ -23,9 +23,9 @@
             <tr>
                 <td id="logo">DOUG RUSH</td>
                 <td id="navigation">
+                    <a href="#top_part">home</a>
                     <a href="#work">work</a>
                     <a href="#bio">about</a>
-                    <a href="">blog</a>
                     <a href="#contact">contact</a>
                 </td>
             </tr>
@@ -35,35 +35,110 @@
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
                 <h1>Hello World!</h1>
-                <h2>My name is Doug Rush, a web developer from Louisville, KY.</h2>
-                <button class="btn_one">Contact Me</button><br>
+                <h2>I am Doug Rush, a web developer from Louisville, KY.</h2>
+                <a href="#contact"><button class="btn_one">Contact Me</button></a><br>
                 <table>
-                    <tr>
+                    <tc>
                         <!-- <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
                         <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td> -->
-                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
-                    </tr>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td> -->
+                        <a class="social" href="https://medium.com/@rushdm15"><i class="fab fa-medium"></i></a>
+                        <a class="social" href="https://github.com/rushdm15"><i class="fab fa-github"></i></a>
+                        <a class="social" href="https://www.linkedin.com/in/doug-rush-414664209/"><i class="fab fa-linkedin"></i></a>
+                        <!-- Dev.to Logo -->
+                        <!-- <a href="https://dev.to/rushdm15"><img src="img/dev.to.svg" alt="Dev.to"></a> -->
+                        <!-- Github Logo -->
+                        <!-- <a href="https://github.com/rushdm15"><img src="img/github_icon.svg" alt="Github"></a> -->
+                        <!-- Medium Logo -->
+                        <!-- <a href="https://medium.com/@rushdm15"><img src="img/medium.svg" alt="Medium"></a> -->
+                    </tc>
                 </table>
             </td>
+            <br>
             <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
         </tr>
     </table>
     <div id="work">
         <h1>work</h1>
-        <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
+        <!-- <div id="photos"> -->
+            <!-- <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80"> -->
+        <!-- </div> -->
+        <div class="grid">
+            <!-- Grid items will live here -->
+        <div class="grid__item">
+            <h2>Pokedex</h2>
+            <p>
+              A simple JavaScript application using client-side code that communicates with an external API. In this case, a 
+              pokedex application showing Pokemon info.
+            </p>
+            <a href="https://rushdm15.github.io/simple-js-app/">See the website</a>
+            <img src="img/picSimple2.png" style="width:400px;height:300px" alt="SimpleJSApp">
         </div>
+      
+        <div class="grid__item">
+            <h2>To-Do-App</h2>
+            <p>
+          Another simple JavaScript application that uses client-side programming which communicates to an external API, in this case, a simple to-do-list application.
+            </p>
+            <a href="https://rushdm15.github.io/to-do-list-app/">See the website</a>
+            <img src="img/ToDo.png" style="width:350px;height:250px" alt="ToDoApp">
+        </div>
+
+        <div class="grid__item">
+            <h2>Native App</h2>
+            <p>Standard native JavaScript mobile chat application</p>
+            <a href="https://github.com/rushdm15/hello-world.git">See the project on Github</a>
+            <img src="img/Chat1.png" style="width:350px;height:650px" alt="ChatApp">
+            <!-- <img src="img/Chat2.png" style="width:350px;height:650px" alt="ChatApp"> -->
+        </div>
+      
+        <div class="grid__item">
+            <h2>Movie App (React.js)</h2>
+            <p>
+          Client-side programming of the movie app using Facebook's React.js, a library for user interfaces
+          </p>
+            <a href="https://github.com/rushdm15/myFlix-client">See the platform on Github</a>
+            <img src="img/picReact.png" style="width:400px;height:300px" alt="MeetsApp">
+        </div>
+      
+        <div class="grid__item">
+          <h2>Meet App</h2>
+            <p>
+              A serverless, React, and progressive web application that uses a test-driven development technique. 
+              The project uses the Google Calendar API to fetch upcoming events.
+            </p>
+            <a href="https://github.com/rushdm15/meets.git">See the project on Github</a> <br>
+            <a href="https://rushdm15.github.io/meets/">Project Link</a>
+            <img src="img/picMeets2.png" style="width:400px;height:300px" alt="MeetsApp">
+      
+        </div>
+      
+        <div class="grid__item">
+            <h2>Angular App</h2>
+            <p>Standard native Angular movie application</p>
+            <a href="https://github.com/rushdm15/hello-world.git">See the project on Github</a>
+            <img src="img/picAngularClient2.png" style="width:400px;height:300px" alt="MeetsApp">
+        </div>
+
+        <div class="grid__item">
+            <h2>Movie App (Node.js)</h2>
+            <p>
+          Movie website that showcases users' favorite movies list using REST architecture and databases to build an API 
+          from scratch. 
+            </p>
+            <a href="https://github.com/rushdm15/movie_api">See the platform on Github</a>
+        </div>
+        
+      </div>
     </div>
     <div id="bio">
-        <h1>about me</h1>
+        <h1>about&nbsp;me</h1>
         <p>
             Army veteran, livestock farmer, Virginia Military Institute alumnus
         </p>
@@ -82,30 +157,39 @@
                         <div id="inner_div">
                             <table id="inner_table">
                                 <tr>
-                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
+                                    <td><i class="fas fa-phone"></i> &nbsp; Enquire below</td>
                                 </tr>
                                 <tr>
-                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
+                                    <td><i class="fas fa-at"></i> &nbsp; Enquire below</td>
                                 </tr>
-                                 <tr>
+                                 <!-- <tr>
                                     <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
-                                </tr>
+                                </tr> -->
                                 <tr>
                                     <td><i class="fas fa-map-marker-alt"></i>
                                     <div id="address">
-                                        Street 123,<br>
-                                        blah blah city,<br>
-                                        blah blah country
+                                        Louisville, KY<br>
+                                        USA
                                     </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a class="social"><i class="fab fa-facebook"></i></a>
+                                        <!-- Old code -->
+                                        <!-- <a class="social"><i class="fab fa-facebook"></i></a>
                                         <a class="social"><i class="fab fa-twitter"></i></a>
                                         <a class="social"><i class="fab fa-instagram"></i></a>
-                                        <a class="social"><i class="fab fa-dribbble"></i></a>
-                                        <a class="social"><i class="fab fa-medium"></i></a>
+                                        <a class="social"><i class="fab fa-dribbble"></i></a> -->
+                                        <a class="social" href="https://medium.com/@rushdm15"><i class="fab fa-medium"></i></a>
+                                        <a class="social" href="https://github.com/rushdm15"><i class="fab fa-github"></i></a>
+                                        <a class="social" href="https://www.linkedin.com/in/doug-rush-414664209/"><i class="fab fa-linkedin"></i></a>
+
+                                        <!-- Dev.to Logo -->
+                                        <!-- <a href="https://dev.to/rushdm15"><img src="img/dev.to.svg" alt="Dev.to"></a> -->
+                                        <!-- Github Logo -->
+                                        <!-- <a href="https://github.com/rushdm15"><img src="img/github_icon.svg" alt="Github"></a> -->
+                                        <!-- Medium Logo -->
+                                        <!-- <a href="https://medium.com/@rushdm15"><img src="img/medium.svg" alt="Medium"></a> -->
                                     </td>
                                 </tr>
                             </table>
@@ -113,18 +197,19 @@
                     </td>
                     <td>
                         <form>
-                            <input type="text" placeholder="name" required>
+                            <!-- <input type="text" placeholder="name" required>
                             <input type="email" placeholder="email" required><br>
                             <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
+                            <button class="btn_one">send</button> -->
+                            <a href="mailto:mdrush93@yahoo.com"><button class="btn_one">Click to Send E-mail</button></a>
                         </form> 
                     </td>
                 </tr>
             </table>
     </div>
-    <div id="footer">
+    <!-- <div id="footer">
         made on earth by a human <br> <a href="https://imfunniee.github.io">imfunny</a>
-    </div>
+    </div> -->
     <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
